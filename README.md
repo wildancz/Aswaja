@@ -1,13 +1,13 @@
-# An-Nuqthah Kitab OCR — cleaning pipeline
+# Aswaja — cleaning pipeline
 
-Code behind the **An-Nuqthah Kitab OCR** dataset: clean, page-level OCR text of classical Islamic books
+Code behind the **Aswaja** dataset: clean, page-level OCR text of classical Islamic books
 (Ahlussunnah: Ash'ari/Maturidi creed, Sunni fiqh and tasawuf) from the library of Pondok Pesantren An-Nuqthah,
 Indonesia.
 
 - Dataset (v0.1): 1,704 books, 604,096 pages, ~850 M characters, Parquet — on Hugging Face: [anocta/Aswaja](https://huggingface.co/datasets/anocta/Aswaja)
 - Only books whose author died ≤ 1374 AH (public domain); editor footnotes and introductions removed; no scans.
 
-*Ringkasan (ID): kode pembersih untuk dataset OCR kitab An-Nuqthah. Datanya ada di Hugging Face.*
+*Ringkasan (ID): kode pembersih untuk dataset Aswaja. Datanya ada di Hugging Face.*
 
 ## What the pipeline does
 
@@ -65,4 +65,4 @@ still under copyright are welcome as issues.
 - Code: MIT (see `LICENSE`).
 - Dataset (and `sample/`): [CDLA-Sharing-1.0](https://cdla.dev/sharing-1-0/). Republished data stays under the
   same licence; models and analyses made from it are free.
-- Please credit *Pondok Pesantren An-Nuqthah, Anocta, wildancz — An-Nuqthah Kitab OCR*.
+- Please credit *Pondok Pesantren An-Nuqthah, Anocta, wildancz — Aswaja*.
