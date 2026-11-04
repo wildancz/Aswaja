@@ -4,7 +4,7 @@ Code behind the **Aswaja** dataset: clean, page-level OCR text of classical Isla
 (Ahlussunnah: Ash'ari/Maturidi creed, Sunni fiqh and tasawuf) from the library of Pondok Pesantren An-Nuqthah,
 Indonesia.
 
-- Dataset (v0.1): 1,704 books, 604,096 pages, ~850 M characters, Parquet — on Hugging Face: [anocta/Aswaja](https://huggingface.co/datasets/anocta/Aswaja)
+- Dataset (v0.2): 2,051 books, 716,680 pages, ~1.0 B characters, Parquet — on Hugging Face: [anocta/Aswaja](https://huggingface.co/datasets/anocta/Aswaja)
 - Only books whose author died ≤ 1374 AH (public domain); editor footnotes and introductions removed; no scans.
 
 *Ringkasan (ID): kode pembersih untuk dataset Aswaja. Datanya ada di Hugging Face.*
